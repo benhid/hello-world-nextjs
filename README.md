@@ -1,2 +1,3 @@
 # hello-world-nextjs
-MWE of Next.js application
+
+This is a simple boilerplate for new Next.js projects.
