@@ -12,7 +12,7 @@ function getPosts() {
 
 const PostLink = props => (
   <li>
-    <Link as={`/p/${props.post.id}`} href={`/post?title=${props.post.title}`}>
+    <Link as={`/post/${props.post.id}`} href={`/post/[title]`}>
       <a>{props.post.title}</a>
     </Link>
   </li>

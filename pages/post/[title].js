@@ -1,7 +1,7 @@
 import { withRouter } from "next/router";
 import Head from 'next/head'
 
-import HeroFullLayout from "../components/herofullLayout.js";
+import HeroFullLayout from "../../components/herofullLayout.js";
 
 const Content = withRouter(props => (
   <div>

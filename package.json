@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_PORT=3005 node server.js",
+    "dev": "next",
     "build": "next build",
     "export": "next export",
     "serve": "serve ./out -p 8080",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production next start"
   },
   "keywords": [],
   "author": "",
@@ -16,9 +16,9 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "express": "^4.16.4",
-    "next": "^8.0.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "serve": "^10.1.2"
+    "next": "^9.1.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "serve": "^11.2.0"
   }
 }
